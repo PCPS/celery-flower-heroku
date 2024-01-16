@@ -1,3 +1,4 @@
 flower
 celery
 redis
+kombu-fernet-serializers
