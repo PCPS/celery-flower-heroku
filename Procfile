@@ -1,1 +1,1 @@
-web: python -m flower --broker=$REDIS_URL --port=$PORT --basic_auth=user:pwsd 
+web: python -m flower flower --broker=$REDIS_URL --port=$PORT --basic_auth=user:pwsd 
