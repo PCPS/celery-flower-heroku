@@ -1,3 +1,4 @@
 flower == 2.0.1
 celery == 5.3.6
 redis == 5.0.1
+kombu-fernet-serializers==0.2.0
