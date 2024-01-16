@@ -1,4 +1,5 @@
 flower
 celery
 redis
+Flask
 kombu-fernet-serializers
