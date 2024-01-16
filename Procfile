@@ -1,1 +1,1 @@
-web: celery --app celeryconfig flower --port=$PORT --url_prefix=flower
+web: celery flower --port=$PORT --url_prefix=flower --basic-auth=user:pswd
