@@ -1,1 +1,1 @@
-web: flower --port=$PORT --broker=$REDIS_URL --db=$DATABASE_URL --persistent=true --basic_auth=$FLOWER_AUTH
+web: celery --port=$PORT --broker=$REDIS_URL --db=$DATABASE_URL --persistent=true --basic_auth=$FLOWER_AUTH flower
