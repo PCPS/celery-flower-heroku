@@ -1,1 +1,1 @@
-web: celery --app celeryconfig flower --port=$PORT
+web: celery --app celeryconfig flower --port=$PORT --url_prefix=flower
