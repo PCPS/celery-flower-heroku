@@ -1,1 +1,1 @@
-web: celery --broker=$REDIS_URL flower --port=$PORT --persistent=true --basic_auth=$FLOWER_AUTH
+web: celery --app celeryconfig flower --port=$PORT --persistent=true --basic_auth=$FLOWER_AUTH
