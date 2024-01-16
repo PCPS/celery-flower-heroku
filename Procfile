@@ -1,1 +1,1 @@
-web: celery --app celeryconfig flower --port=$PORT --basic_auth=$FLOWER_AUTH
+web: celery --app celeryconfig flower --port=$PORT
